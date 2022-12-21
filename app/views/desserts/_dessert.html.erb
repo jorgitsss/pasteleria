@@ -1,0 +1,17 @@
+<div id="<%= dom_id dessert %>">
+  <h1>
+    <strong>Name:</strong>
+    <%= dessert.name %>
+  </h1>
+
+  <p>
+    <strong>Description:</strong>
+    <%= dessert.description %>
+  </p>
+
+  <p>
+    <strong>Types:</strong>
+    <%= dessert.types.map(&:name).sort.join('🍨 ') %>
+  </p>
+
+</div>

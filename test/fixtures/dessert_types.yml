@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  dessert: one
+  type: one
+
+two:
+  dessert: two
+  type: two

@@ -2,12 +2,15 @@
 <h1>Desserts</h1>
 <%= link_to "Nueva tarta", new_dessert_path, role: "button" %>
 <hr>
+
 <div id="desserts">
   <% @desserts.each do |dessert| %>
     <article id="article">
       <h2><%= dessert.name %></h2>
       <p><%= truncate(dessert.description, length: 150) %></p>
-      <footer><small><%= link_to "Mira la tarta", dessert %></small></footer>
+      <footer>
+      <small><%= link_to "Mira la tarta", dessert %></small>
+      </footer>
     </article>
     <p>
     </p>

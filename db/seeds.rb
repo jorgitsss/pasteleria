@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-puts 'Tipos de postres creados...'
+puts '8 Tipos de postres creados...'
 types = Type.create([{ name: 'Chocolate' },
                      { name: 'Chocolate con chocolate' },
                      { name: 'Selva negra' },
